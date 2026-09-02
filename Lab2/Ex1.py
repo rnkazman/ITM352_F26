@@ -1,3 +1,8 @@
+# This program prompts the user to enter a number between 1 and 100, calculates the square of that 
+# number, and then prints both the entered number and its square.
+# Name: Rick Kazman
+# Date: Sept. 2, 2026
+
 value_entered = input("Enter a number between 1 and 100: ")
 value_as_integer = int(value_entered)
 
