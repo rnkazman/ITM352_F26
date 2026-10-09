@@ -23,7 +23,7 @@ selected_questions = random.sample(list(questions.items()), k=num_questions)
 
 num_correct = 0
 
-for num, (question, answers) in enumerate(questions.items(), start=1):
+for num, (question, answers) in enumerate(selected_questions, start=1):
     correct_answer = answers[0]
     print(f"\nQuestion {num}: {question}")
 
@@ -44,4 +44,4 @@ for num, (question, answers) in enumerate(questions.items(), start=1):
     else:
         print(f"The answer is '{correct_answer!r}', not {answer!r}.")
 
-print(f"\nYou got {num_correct} out of {len(questions)} correct.")
+print(f"\nYou got {num_correct} out of {len(selected_questions)} correct.")
