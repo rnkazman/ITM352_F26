@@ -81,9 +81,9 @@ if __name__ == "__main__":
 #  Otherwise this program runs in interactive mode.
    try:
       student_id = input("Enter your student id (XXX-XX-XXX): ")
-      num1, num2 = generate_numbers(student_id, 10)
-      print(f"Your two numbers are: {num1} and {num2}")
+      #num1, num2 = generate_numbers(student_id, 10)
+      #print(f"Your two numbers are: {num1} and {num2}")
       num1, num2 = generate_numbers_v2(student_id, 10)
-      print(f"Your two numbers from v2 are: {num1} and {num2}")
+      print(f"Your two numbers are: {num1} and {num2}")
    except ValueError as e:
       print(f"Error: {e}")
