@@ -19,7 +19,15 @@ questions = [
     {
         "question": "What is the largest ocean on Earth?",
         "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"]
-    },    
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "Jane Austen", "Mark Twain", "William Shakespeare"]
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Pb", "Ag", "Fe", "Au"]
+    }
     ]
 max_questions = len(questions)
 
