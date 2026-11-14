@@ -3,7 +3,7 @@
 # Date: Nov. 13, 2026
 
 from flask import Flask, render_template, request, redirect, url_for
-
+ 
 # Global variables
 score = 0
 question_number = 0
@@ -14,7 +14,12 @@ questions = [
     },   
     {
         "question": "What planet is known as the Red Planet?",
-        "options": ["Venus", "Saturn", "Jupiter", "Mars"]}
+        "options": ["Venus", "Saturn", "Jupiter", "Mars"]
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"]
+    },    
     ]
 max_questions = len(questions)
 
